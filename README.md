@@ -25,4 +25,19 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 Aplikasi ini menggunakan laravel versi 11.30. Clone menggunakan zip file:
 
--   Dowload todolist
+-   Dowload todolist berupa [zip file](https://github.com/Raniza/todolist/archive/refs/heads/main.zip)
+-   Extract zip file kedalam folder tempat menyimpan aplikasi
+-   Kemudian masuk kedalam repository: cd todolist
+
+CLone menggunakan URL:
+
+-   CLone aplikasi dengan cara mengetikan: clone https://github.com/Raniza/todolist.git
+-   Kemudian masuk kedalam repository: cd todolist
+
+Selanjutanya Install dan buat Key untuk aplikasi laravel ini:
+
+-   composer install
+-   cp .env.example .env (Untuk membuat file env yang berisi setting aplikasi ini)
+-   php artisan key:generate (Membuat key dalam file .env)
+
+Jalankan aplikasi dengan perintah: php arrtisan serve
